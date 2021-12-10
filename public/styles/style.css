@@ -1,0 +1,187 @@
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+    width: 100%;
+    height: 100%
+}
+
+.InfosAutor p{
+    font-size: 100%; 
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 100%;
+}
+
+/*HEADER*/
+header {
+    margin-left: 0%;
+	padding: 35px;
+	text-align: center;
+    background-color: #004e66;
+}
+
+header a {
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-family: Arial;
+    text-transform: uppercase;
+    font-size: 15px; 
+    line-height: 25px;
+    border-radius: 0px;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: rgb(179, 179, 179);
+}
+
+header a.select {
+    color: white;
+    border-bottom: 2px solid #00b740;
+}
+
+a:visited {
+    text-decoration: none;
+}
+a:link {
+    text-decoration: none;
+}
+/*FIM HEADER*/
+
+
+/*FALE CONOSCO*/
+input, textarea{
+    width: 474px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 474px;
+    height: 120px;
+    line-height: 20px;
+}
+
+.RecebeDados{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.RecebeDados h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.Enviar{
+    text-align: center;
+}
+
+.Botao{
+    background-color: #069;
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.Botao:hover{
+    background-color: #078;
+}
+/*FIM FALE CONOSCO*/
+
+/*INFORMAÇÕES AUTOR*/
+
+.InfosAutor h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.infos{
+    text-align: center;
+    font-size: 17px;
+}
+
+.infosDev{
+    text-align: center;
+    margin-top: 5%;
+}
+
+#fotoAutor{
+    width: 150px;
+    border-radius: 50%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*FIM INFORMAÇÕES AUTOR*/
+
+
+
+/*MAPA*/
+#myMap{
+    height: 350px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/*FIM MAPA*/
+
+
+/*FOOTER*/
+
+.blog-footer {
+    padding: 2.5rem 0;
+    color: white;
+    text-align: center;
+    background-color: #004e66;
+    border-top: -1.95rem solid #e5e5e5;
+}
+
+footer{
+    padding: 2.5rem 0;
+    color: white;
+    text-align: center;
+    background-color: #004e66;
+    border-top: -1.95rem solid #e5e5e5;
+}
+
+#direita{
+    text-align: right;
+    float: right;
+    margin-right: 5%;
+}
+#esquerda{
+    text-align: left;
+    float: left;
+    margin-left: 5%;
+}
+
+/*FIM FOOTER*/
+
+.imgcarrocel{
+    /*height: 400px;
+    width:1600px;
+    min-height: 400; */
+
+    width: 100% ;
+}
